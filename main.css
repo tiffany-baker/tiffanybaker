@@ -1,0 +1,234 @@
+
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background-color: lightblue;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: rgba(255,255,255,0.60);
+	}
+
+	/*********************************************************************************/
+/* nav                                                                         */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#nav ul
+	{
+		display: inline-block;
+		font-size:45px;
+	}
+	
+	#nav li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#nav li a, #nav li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#nav li:hover a, #nav li.active a, #nav li.active span
+	{
+        padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgb(165, 63, 191);
+		
+	}
+	
+	#nav .active a
+	{
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+	}
+	
+	#nav .icon
+	{
+	}
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,0.60);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: rgba(255,255,255,0.60);
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: rgba(0,0,0,.8);
+	}
+
+
+	.button:hover
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgb(165, 63, 191);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: rgb(165, 63, 191);
+	}
+
+	/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4em;
+		color: #FFF;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,0.60);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+	#banner .button:hover
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgb(165, 63, 191);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	/* Style the navigation bar */
+
+/* Navbar links */
+.nav {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+
+}
+
+/*********************************************************************************/
+/* IMAGE                                                                        */
+/*********************************************************************************/
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+
+
+
+.doc{
+	text-align: center;
+}
+
+.boxA{
+	text-align: center;
+}
+
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding-top: 10px;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
